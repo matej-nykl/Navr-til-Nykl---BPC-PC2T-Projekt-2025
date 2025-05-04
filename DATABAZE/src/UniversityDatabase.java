@@ -138,7 +138,7 @@ public class UniversityDatabase {
     private static void removeStudent() 
     {
         int id = getIntInput("\nEnter student ID: ");
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
 
         if (database.removeStudent(id)) 
         {
@@ -153,7 +153,7 @@ public class UniversityDatabase {
     private static void findStudentById() 
     {
         int id = getIntInput("\nEnter student ID: ");
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
 
         Student student = database.findStudentById(id);
         if (student != null) 
@@ -170,7 +170,7 @@ public class UniversityDatabase {
     private static void performStudentSkill() 
     {
         int id = getIntInput("\nEnter student ID: ");
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
 
         Student student = database.findStudentById(id);
         if (student != null) 
@@ -219,7 +219,7 @@ public class UniversityDatabase {
     private static void saveStudentToFile() 
     {
         int id = getIntInput("\nEnter student ID: ");
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
         
         System.out.print("Enter filename (or path): ");
         String filename = scanner.nextLine().trim();
