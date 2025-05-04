@@ -1,1 +1,4 @@
-# Navratil-Nykl---BPC-PC2T-Projekt-2025
+## Projekt do předmětu BPC-PC2T pro rok 2025
+### GROUP MEMBERS
+Matěj Nykl (´ID: 256788´)
+Šimon Navrátil (´ID: 256785´)
